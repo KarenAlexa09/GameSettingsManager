@@ -1,6 +1,5 @@
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 using System.Collections;
 using UnityEngine.InputSystem;
 
@@ -14,6 +13,7 @@ public class ControlsSettingsView : SettingsBaseView
     [SerializeField] private TMP_InputField interactActionInputField;
 
     private ControlSettingsModel _model;
+    private Coroutine waitForPressCoroutine;
 
     protected override void Awake()
     {
@@ -104,7 +104,7 @@ public class ControlsSettingsView : SettingsBaseView
 
     private void StartRebindAction(string actionName)
     {
-        StartCoroutine(WaitForKeyPress(actionName));
+        waitForPressCoroutine = StartCoroutine(WaitForKeyPress(actionName));
     }
 
     private IEnumerator WaitForKeyPress(string actionName)
@@ -176,6 +176,7 @@ public class ControlsSettingsView : SettingsBaseView
 
     public override void Conclude()
     {
-        StopCoroutine(WaitForKeyPress(""));
+        if (waitForPressCoroutine != null)
+            StopCoroutine(WaitForKeyPress(""));
     }
 }

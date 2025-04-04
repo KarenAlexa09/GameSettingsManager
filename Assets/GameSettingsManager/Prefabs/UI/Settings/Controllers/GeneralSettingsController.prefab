@@ -12,6 +12,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Panel_Dropdown_Language
       objectReference: {fileID: 0}
+    - target: {fileID: 492008952327651877, guid: ac5bf60628c170e459362020e34fbe4a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281241071532107361, guid: ac5bf60628c170e459362020e34fbe4a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281241071532107361, guid: ac5bf60628c170e459362020e34fbe4a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281241071532107361, guid: ac5bf60628c170e459362020e34fbe4a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -17
+      objectReference: {fileID: 0}
     - target: {fileID: 1517048592055743615, guid: ac5bf60628c170e459362020e34fbe4a, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -28,9 +44,49 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2204733915602438546, guid: ac5bf60628c170e459362020e34fbe4a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2204733915602438546, guid: ac5bf60628c170e459362020e34fbe4a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2339668915993637878, guid: ac5bf60628c170e459362020e34fbe4a, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 60.118
+      objectReference: {fileID: 0}
+    - target: {fileID: 2339668915993637878, guid: ac5bf60628c170e459362020e34fbe4a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.000038146973
+      objectReference: {fileID: 0}
     - target: {fileID: 2833008667332740468, guid: ac5bf60628c170e459362020e34fbe4a, type: 3}
       propertyPath: m_text
       value: Language
+      objectReference: {fileID: 0}
+    - target: {fileID: 6301345328584858730, guid: ac5bf60628c170e459362020e34fbe4a, type: 3}
+      propertyPath: m_text
+      value: Option A
+      objectReference: {fileID: 0}
+    - target: {fileID: 6301345328584858730, guid: ac5bf60628c170e459362020e34fbe4a, type: 3}
+      propertyPath: m_fontSize
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6301345328584858730, guid: ac5bf60628c170e459362020e34fbe4a, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6301345328584858730, guid: ac5bf60628c170e459362020e34fbe4a, type: 3}
+      propertyPath: m_fontSizeMin
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6301345328584858730, guid: ac5bf60628c170e459362020e34fbe4a, type: 3}
+      propertyPath: m_overflowMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6301345328584858730, guid: ac5bf60628c170e459362020e34fbe4a, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7065106834064449449, guid: ac5bf60628c170e459362020e34fbe4a, type: 3}
       propertyPath: m_Pivot.x
@@ -128,9 +184,37 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7704354322845158076, guid: ac5bf60628c170e459362020e34fbe4a, type: 3}
+      propertyPath: m_Size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7725536857251501955, guid: ac5bf60628c170e459362020e34fbe4a, type: 3}
       propertyPath: m_Name
       value: Dropdown_Language
+      objectReference: {fileID: 0}
+    - target: {fileID: 8226304158133923363, guid: ac5bf60628c170e459362020e34fbe4a, type: 3}
+      propertyPath: m_text
+      value: Option A
+      objectReference: {fileID: 0}
+    - target: {fileID: 8226304158133923363, guid: ac5bf60628c170e459362020e34fbe4a, type: 3}
+      propertyPath: m_fontSize
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8226304158133923363, guid: ac5bf60628c170e459362020e34fbe4a, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8226304158133923363, guid: ac5bf60628c170e459362020e34fbe4a, type: 3}
+      propertyPath: m_fontSizeMin
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8226304158133923363, guid: ac5bf60628c170e459362020e34fbe4a, type: 3}
+      propertyPath: m_overflowMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8226304158133923363, guid: ac5bf60628c170e459362020e34fbe4a, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -261,6 +345,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4601792979658883391, guid: 6a56d9febb8e4c442b96474ec23b28f2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1377634857173153554}
+    - targetCorrespondingSourceObject: {fileID: 4601792979658883391, guid: 6a56d9febb8e4c442b96474ec23b28f2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3708656866781270280}
     - targetCorrespondingSourceObject: {fileID: 2926919464361171231, guid: 6a56d9febb8e4c442b96474ec23b28f2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4810268136353224112}
@@ -309,6 +396,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8bb7084adaaff84793f17d535fda687, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!225 &3708656866781270280
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6947066701686089427}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!114 &8444003048778782257 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3070058592376959453, guid: 6a56d9febb8e4c442b96474ec23b28f2, type: 3}
@@ -337,7 +436,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 237a2cad5bb24c84f9755dd316941ab4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  languageDropdown: {fileID: 8448499800517827405}
   saveBtn: {fileID: 8444003048778782257}
   discardBtn: {fileID: 3920339519059960567}
   backBtn: {fileID: 5632207849712929000}
+  languageDropdown: {fileID: 8448499800517827405}

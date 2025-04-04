@@ -16,7 +16,7 @@ public abstract class UIControllerBase : MonoBehaviour
 
     public void CanvasAlpha(bool isHide)
     {
-        canvasGroup.alpha = isHide?0:1;
+        canvasGroup.alpha = isHide ? 0 : 1;
         canvasGroup.interactable = !isHide;
         canvasGroup.blocksRaycasts = !isHide;
     }
@@ -44,7 +44,7 @@ public abstract class UIControllerBase : MonoBehaviour
 
     public void ShowAllView()
     {
-        if(views.Length>0)
+        if (views.Length > 0)
         {
             foreach (UIViewBase view in views)
             {
@@ -59,7 +59,8 @@ public abstract class UIControllerBase : MonoBehaviour
         {
             foreach (UIViewBase view in views)
             {
-                view.gameObject.SetActive(false);
+                if (view != null)
+                    view.gameObject.SetActive(false);
             }
         }
     }
